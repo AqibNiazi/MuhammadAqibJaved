@@ -1,4 +1,4 @@
-const numberArray=['1','2','3','4','5','6','7','8','9'];
+const numberArray=[1,2,3,4,5,6,7,8,9];
 //                                              pop()                       //
 
 // let popValue=numberArray.pop();
@@ -27,7 +27,21 @@ const numberArray=['1','2','3','4','5','6','7','8','9'];
 
 
 //                                               find method                                  //
-let x=numberArray.find((item)=>{
-return item==='5';
-})
-console.log(x);
+// let x=numberArray.find((item)=>{
+// return item===5;
+// })
+// console.log(x);
+
+
+//                                               filter method                                  //
+// let y=numberArray.filter((item)=> item > 3 );
+// console.log(y);
+
+//                                                map method                                    //
+
+let z=numberArray.map((item)=>{
+return item * 2; 
+}
+ );
+ console.log("Original Array :"+numberArray);
+console.log("squared array :"+z);
