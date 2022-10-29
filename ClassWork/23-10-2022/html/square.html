@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../Css/square.css">
+</head>
+<body>
+
+<form action="" name="myform">
+    <label for="value" class="form-label">
+        Value
+    </label>
+  <input type="number" name="value" id="value" class="form-control">
+  <label for="action">Action</label>
+  <select  class="form-select" id="select" onchange="cal()">
+    <option value="double" id="d" >double</option>
+    <option value="square" id="s">square</option>
+  </select>
+  <label for="Result" class="form-label">Result</label>
+  <input type="text" class="form-control" id="result">
+</form>
+<script src="../JavaScript/square.js"></script>
+
+
+    <!-- <div class="container">
+        <h1 class="text-center">Simple Calculator</h1>
+        <form>
+            <div class="row">
+              <div class="col-md-8">
+                <label for="" class="form-label">Number 1:</label>
+                <input type="number" class="form-control" placeholder="Enter number 1" id="num1" name="num1">
+              </div>
+              <div class="col-md-8">
+                <label for="" class="form-label">Number 2:</label>
+                <input type="number" class="form-control" placeholder="Enter number 2" id="num2" name="num2">
+              </div>
+              
+              <div class="col-md-8 text-center mx-2 mt-4">
+                <input type="button" class="btn btn-primary" onclick="add(this.form)" value="Add">
+              <input type="button" class="btn btn-primary" onclick="subtract(this.form)" value="Subtract">
+              </div>
+              
+            </div>
+          </form>
+          <p id="res">----</p>
+    </div>
+
+    <script>
+   
+
+   function add(f){
+     let result=parseInt(f.num1.value)+parseInt(f.num2.value);
+    document.getElementById("res").innerHTML=result;
+   }
+   function subtract(f){
+    let result=parseInt(f.num1.value)-parseInt(f.num2.value);
+    document.getElementById("res").innerHTML=result;
+   }
+ 
+    </script>
+ -->
+
+
+</body>
+</html>

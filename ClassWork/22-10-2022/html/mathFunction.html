@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link JS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    form {
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      width: 40%;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="" name="myform">
+    <label for="value" class="form-label">Value</label>
+    <input type="number" name="value" id="value" class="form-control">
+    <input type="button" value="Sqrt" class="btn btn-primary my-3" onclick="squareroot()">
+    <input type="button" value="ceil" class="btn btn-primary my-3" onclick="ceilValue()">
+    <input type="button" value="floor" class="btn btn-primary my-3" onclick="floorValue()">
+    <input type="button" value="round" class="btn btn-primary my-3" onclick="roundValue()">
+    <br>
+    <label for="res" class="form-label">Result</label>
+    <input type="text" name="res" id="res" class="form-control">
+
+  </form>
+  <script src="../JavaScript/mathFunctions.js"></script>
+</body>
+
+</html>
