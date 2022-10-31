@@ -151,15 +151,16 @@ console.log(replaceArrayElment(array1));
 // secondobj.a=5;
 // console.log(obj);
 
+//                                        Get person address
 
-// const person = {
-//     address :  {
-//        city:"Taxila",
-//        country:"pakistan"
-//     },
-//     getAddress(){
-// return `City :${this.address.city}\nCountry :${this.address.country}` 
-//     }
-//   };
-//   console.log(person.getAddress());
+const person = {
+    address :  {
+       city:"Taxila",
+       country:"pakistan"
+    },
+    getAddress(){
+return `City :${this.address.city}\nCountry :${this.address.country}` 
+    }
+  };
+  console.log(person.getAddress());
   
