@@ -1,46 +1,55 @@
-function zero() {
-  return 0;
+function zero(param) {
+  return param ? param(0):0;
+
 }
-function one() {
-  return 1;
+function one(param) {
+  return param ? param(1):1;
+
 }
-function two() {
-  return 2;
+function two(param) {
+  return param ? param(2):2;
+
 }
-function three() {
-  return 3;
+function three(param) {
+  return param ? param(3):3;
+
 }
-function four() {
-  return 4;
+function four(param) {
+  return param ? param(4):4;
+
 }
-function five() {
-  return 5;
+function five(param) {
+return param ? param(5):5;
 }
-function six() {
-  return 6;
+function six(param) {
+  return param ? param(6):6;
+
 }
-function seven() {
-  return 7;
+function seven(param) {
+  return param ? param(7):7;
+
 }
-function eight() {
-  return 8;
+function eight(param) {
+  return param ? param(8):8;
+
 }
-function nine() {
-  return 9;
+function nine(param) {
+  return param ? param(9):9;
+
 }
 
-function add() {
-  return "+";
+function add(param) {
+  return (param1)=>param1+param;
 }
-function Sub() {
-  return "-";
+function Sub(param) {
+  return (param1)=>param1-param;
 }
-function Mul() {
-  return "*";
+function Mul(param) {
+  return (param1)=>param1*param;
 }
-function Div() {
-  return "/";
+function Div(param) {
+  return (param1)=>param1/param;
 }
 
-let result = eval(three() + Div() + two());
+let result = three(Sub(two()));
 console.log(result);
