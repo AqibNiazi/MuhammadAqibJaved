@@ -25,14 +25,14 @@ console.log("End");
 
 
 
-// const asnyFunction = async () => {
-//   let req = await fetch("https://fakestoreapi.com/products");
-//   let data = await req.json();
+const asnyFunction = async () => {
+  let req = await fetch("https://fakestoreapi.com/products");
+  let data = await req.json();
 
-//   console.log(data);
-// };
+  console.log(data);
+};
 
-// asnyFunction();
+asnyFunction();
 
 
 

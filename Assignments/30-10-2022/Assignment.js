@@ -45,11 +45,16 @@ function Sub(param) {
   return (param1)=>param1-param;
 }
 function Mul(param) {
+  debugger;
   return (param1)=>param1*param;
 }
 function Div(param) {
   return (param1)=>param1/param;
 }
 
-let result = three(Sub(two()));
+const parentFunc =Mul(nine())
+// (param) => param + 9
+console.log(parentFunc)
+ let result = nine(parentFunc);
+
 console.log(result);
