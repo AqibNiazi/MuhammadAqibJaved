@@ -1,0 +1,16 @@
+table, td, th {
+     border: 2px solid white;
+  }
+.Container{
+   width: 80%; 
+   text-align: center;
+}  
+table{
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+ul{
+    list-style-type: none;
+    border: 2px solid white;
+}
