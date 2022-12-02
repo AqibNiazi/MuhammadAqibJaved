@@ -1,0 +1,25 @@
+.buttonStyle{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    border: none;
+    margin-left: 10px;
+    font-weight: 900;
+    
+}
+.counter{
+    text-align: center;
+}
+.userinput{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userinput input{
+    margin-top: 5px;
+}
+.list{
+    list-style-type: none;
+}
