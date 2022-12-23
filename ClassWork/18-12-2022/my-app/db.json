@@ -1,0 +1,7 @@
+{
+  "cars": [
+    { "id": 1, "name": "Mercedes G wagon", "model": "AMG G63" },
+    { "id": 2, "name": "Aston Martin", "model": "Vantage" },
+    { "id": 3, "name": "Bentley", "model": "The Bentayga EWB Range" }
+  ]
+}
