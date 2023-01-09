@@ -29,7 +29,7 @@ const LoginForm = () => {
     event.preventDefault();
     const { user } = await signInWithEmailAndPassword(auth, email, password);
     if (user) {
-      navigate("/Login");
+      navigate("/");
     }
   };
 
