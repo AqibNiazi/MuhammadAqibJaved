@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "carname": "Mercedes G wagon",
+      "carmodel": "AMG G63"
+    },
+    {
+      "id": 2,
+      "carname": "Aston Martin",
+      "carmodel": "Vantage"
+    },
+    {
+      "id": 3,
+      "carname": "Bentley",
+      "carmodel": "The Bentayga EWB Range"
+    },
+    {
+      "carname": "XLI",
+      "carmodel": "Honda",
+      "id": 4
+    },
+    {
+      "carname": "Farrari",
+      "carmodel": "13",
+      "id": 5
+    },
+    {
+      "carname": "Civic",
+      "carmodel": "Honda",
+      "id": 6
+    },
+    {
+      "carname": "my car",
+      "carmodel": "my model",
+      "id": 7
+    }
+  ]
+}
