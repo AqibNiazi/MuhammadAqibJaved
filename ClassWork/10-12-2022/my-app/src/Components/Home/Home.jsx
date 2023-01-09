@@ -1,4 +1,4 @@
-import {auth, signOut } from "./Utilities/Config";
+import {auth, signOut } from "../Utilities/Config";
 import React from 'react'
 import { Navigate, useNavigate } from "react-router-dom";
 
